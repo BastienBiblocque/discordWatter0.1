@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
-const token = 'OTM2NzM4MjE4MzExODIzNDIw.YfRjcw.pYSCaVlImwGQTZqPTD7Dwrtb3cI'
+const token = 'OTM2NzM4MjE4MzExODIzNDIw.YfRjcw.liUfLHh_tH5xdU4XHZfy7Xmqv08'
 var CronJob = require('cron').CronJob;
 
 client.once('ready', () => {
